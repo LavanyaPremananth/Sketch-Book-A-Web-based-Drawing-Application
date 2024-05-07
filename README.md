@@ -6,9 +6,13 @@ Visit the deployed app: https://sketch-book-hazel.vercel.app/
 
 # Features
 Freehand Drawing: Use your mouse or touchpad to draw freely on the canvas.
+
 Mirror Drawing: Create symmetrical drawings by enabling the mirror tool.
+
 Scissor Tool: Cut and move parts of your drawing seamlessly.
+
 Line Tool: Draw straight lines with precision.
+
 Auto-Draw: Experience automatic shape suggestion based on your drawing strokes.
 
 # Usage
