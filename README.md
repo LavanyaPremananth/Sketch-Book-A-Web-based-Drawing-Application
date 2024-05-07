@@ -5,15 +5,17 @@ Sketch-Book is a web-based drawing application that allows users to create artwo
 Visit the deployed app: https://sketch-book-hazel.vercel.app/
 
 # Features
-Freehand Drawing: Use your mouse or touchpad to draw freely on the canvas.
+**Freehand Drawing**: Use your mouse or touchpad to draw freely on the canvas.
 
-Mirror Drawing: Create symmetrical drawings by enabling the mirror tool.
+**Mirror Drawing**: Create symmetrical drawings by enabling the mirror tool.
 
-Scissor Tool: Cut and move parts of your drawing seamlessly.
+**Scissor Tool**: Cut and move parts of your drawing seamlessly.
 
-Line Tool: Draw straight lines with precision.
+**Line Tool**: Draw straight lines with precision.
 
-Auto-Draw: Experience automatic shape suggestion based on your drawing strokes.
+**Auto-Draw**: Experience automatic shape suggestion based on your drawing strokes.
+
+And More...
 
 # Usage
 Select a Drawing Tool: Choose from the toolbar on the left to select the desired drawing tool.
