@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="lib/p5.min.js"></script>
+        <script src="lib/p5.dom.js"></script>
+        
+        <script src="sketch.js"></script>
+        
+        <!-- add extra scripts below -->
+        <script src="toolbox.js"></script>
+        <script src="colourPalette.js"></script>
+        <script src="helperFunctions.js"></script>
+        
+        <script src="freehandTool.js"></script>
+        <script src="lineToTool.js"></script>
+        <script src="mirrorDrawTool.js"></script>
+        <script src="editableShape.js"></script>
+        <script src="scissorTool.js"></script>
+        <script src="autoDrawTool.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="box header">MY SKETCHBOOK 
+                <button id = "clearButton">Clear</button>
+                <button id = "saveImageButton">Save Sketch</button>
+            </div>
+            <div class="box" id="sidebar"></div>
+            <div id="content"></div>
+            <div class="box colourPalette"></div>
+            <div class="box options" id="options"></div>
+            <div class="box helpTools" id="helpTools">
+                <label for="colorpicker" id = "text">Color Picker</label> <!--colourpicker-->
+                <input type="color" id = "colorPicker" value="#000000">
+                <div class = "shapeBtns" id="myShapesBtn"></div>
+            </div>
+        </div>
+    </body>
+</html>
+

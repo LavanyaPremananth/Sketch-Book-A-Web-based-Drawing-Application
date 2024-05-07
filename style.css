@@ -1,0 +1,215 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+
+#sidebar {
+	grid-area: sidebar;
+	overflow-y: scroll;
+    width:100px;
+}
+
+#content {
+	grid-area: content;
+}
+
+.header {
+	grid-area: header;
+	font-family: Times New Roman, serif
+}
+
+.footer{
+  grid-area: footer;
+}
+
+.sideBarItem{
+	max-height:45px;
+	max-width: 45px;
+    padding-left:4px;
+    padding-top:40px;
+}
+
+.sideBarItem img{
+	max-height: 60px;
+	max-Width:60px;
+
+}
+
+.colourPalette{
+	grid-area: colourP;
+	display:flex;
+	flex-direction:grid;
+	flex-flow: wrap;
+}
+
+#colorPicker{
+    background-color: #ECF0F1; 
+    margin-bottom: 15px;
+    width: 30%;
+    height:16%;
+    border-color:#85929E; 
+    cursor: pointer;
+}
+
+.options{
+	grid-area: options;
+    padding:10px;
+    width: 570px;
+}
+
+.helpTools{
+    grid-area: helpTools;
+    padding:10px;
+    width:570px;
+}
+
+.colourSwatches{
+	box-sizing: border-box;
+	width: 40px;
+	height: 40px;
+	max-height: 40px;
+	max-width: 40px;
+	margin: 5px;
+}
+
+.wrapper {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 70px 400px  minmax(500px, 1fr);
+    grid-template-rows: 35px minmax(500px, 1fr) 160px;
+    grid-template-areas:
+               "header header header header"
+				"sidebar content content content"
+                "colourP colourP options helpTools";
+		background-color: #fff;
+		color: #444;
+	}
+.box {
+  background-color: #273746;
+  color: #273746;
+  font-size: 150%;
+}
+
+.header {
+    background-color: #AEB6BF;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#text{
+    background-color: #85929E; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+#clearButton {
+  background-color: #273746;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  float: right;
+}
+
+#clearButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#saveImageButton {
+  background-color: #273746; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  float: right;
+}
+
+#saveImageButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#myButton{
+  background-color: #85929E; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-bottom: 10px;
+  width: 30%;
+    font-family: Times New Roman, serif
+}
+
+#sizeSlider {
+  -webkit-appearance: none;
+  width: 30%;
+  height: 10px;
+    margin-top: 15px;;
+  border-radius: 5px;
+  background: #FEFFFF;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s; 
+}
+
+#sizeSlider:hover {
+  opacity: 1;
+}
+
+#sizeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #85929E;
+  cursor: pointer;
+}
+
+#myShapeBtn {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #85929E;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width:30%;
+    font-family: Times New Roman, serif
+}
+
+/* Darker background on mouse-over */
+#myShapeBtn:hover {
+  background-color: #17202A;
+}
+
+
+
+
+
+
+
